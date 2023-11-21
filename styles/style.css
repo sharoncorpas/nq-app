@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+
+body{
+margin: 0;
+font-size: 16px;
+font-family: 'Advent Pro', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Manrope', sans-serif;
+background: url(./background.png) right no-repeat #FBE5F2;
+background-image: url(./background.png);
+background-position-x: right;
+background-position-y: center;
+background-size: initial;
+
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: rgb(251, 229, 242);
+}
+
+
+/* ENCABEZADO*/
+ 
+header{
+    display: flex;
+
+   
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between; 
+    padding: 8px 24px;
+    background-color: #fff;
+    height: 70px;
+    padding-top: 18px;
+    padding-left: 34px;
+    padding-right: 34px;
+    width: 100%;
+    border-bottom: 1px solid #e7e9ea;
+  
+}
+
+header .nav div{
+    display: flex;
+ 
+}   
+
+.menu{
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+
+/*SECCION LOGIN - FORMULARIO*/
+
+ .login-section {
+    height: 600px;
+    align-content: center;
+   
+}
+section .login-section-form{
+    max-width: 396px;
+    width: 90%;
+    text-align: center;
+    margin: 64px auto 0;
+    color: #200020;
+    background-color: #fff;
+    padding: 32px 16px 24px;
+    border-radius: 4px;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .login-section h1{
+    font-weight: 400px;
+    margin: 0 auto 18px;
+ }
+ .login-section p{
+    font-size: 15px;
+
+ }
+
+ div .login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 38px;
+ }
+ .country-login-form img{
+    width: 28.66px;
+    height: 19.05px;
+    line-height: 50px;
+   
+ }
+
+ .country-login-form  { 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+ }
+ .country-login-form form { 
+   gap: 8px;
+   color: #200020;
+ }
+ .country-login-form .img-country-number  { 
+    display: flex;
+    justify-content: space-between;
+   
+ }
+ .country-login-form  .form-country{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .country-login-form .select-country{
+   border: none;
+   font-size: 16px;
+   color: #200020;
+   background-color: #FBF7FB;
+   width: 50px;
+   height: 48px;
+  
+ }
+ .country-login-form .input-cel{
+    height: 48px ;
+    width: 218px;
+    border: none;
+    border-radius: 4px;
+    font-family: Manrope;
+    color: #200020;
+    background-color: #FBF7FB;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+ }
+   
+ .country-login-form .input-cel-alert{
+    
+    height: 48px ;
+    width: 218px;
+    border: none;
+    border-radius: 4px;
+    font-family: Manrope;
+    color: #200020;
+    background-color: rgba(255, 0, 0, 0.466);
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+ }
+ 
+
+ 
+ .login-form .password{ 
+    height: 48px;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    font-family: Manrope;
+    color: #200020;
+    background-color: #FBF7FB;
+    font-size: 16px;
+    padding: 24px 48px 6px 16px;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+
+section .captcha{
+    margin-top: 12px;
+}
+.login-form .button-unavailable{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 48px;
+    margin-top: 20px;
+   
+    padding-right: 30px;
+    padding-left: 30px;
+    float: none;
+    border-radius: 4px;
+    background-color:  #F1BFDA;
+    font-family: Manrope,sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+    border: none;
+}
+.login-form  .button-unavailable:hover{ 
+    background-color: #DA0081;
+  
+}
+
+footer{
+   
+    background-image: url(./images/footer.svg);
+    background-size: cover;
+    min-height: 460px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+ 
+footer .container-footer{
+   
+    margin: 100px auto 50px;
+    position: relative;
+    padding: 32px;
+}
+.container-footer .container-footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+footer .container-footer .container-footer-top .stores {
+    display: flex;
+    gap: 12px;
+}
+footer .container-footer .container-footer-top .grupo-bancolombia img {
+    width: 120px;
+}
+
+.container-footer .container-footer-middle {
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 32px;
+    padding-left: 24px;
+}
+ 
+.container-footer .container-footer-middle ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+
+ }
+
+.container-footer .container-footer-middle ul li{
+   text-decoration: none;
+   list-style: none;
+   font-size: 18px;
+   font-weight:500;
+   color: white;
+}
+.container-footer .container-footer-middle ul img{
+    margin-right: 32px;
+    display: flex;
+
+ }
+
+ footer .container-footer .container-footer-end{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 12px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+ }
+
+ 
+
+
+@media (max-width: 767px){
+
+    footer{
+        background-color: #200020;
+    }
+
+    footer .container-footer{
+        margin-top: 0!important;
+    }
+    footer .container-footer-top {
+        flex-wrap: wrap;
+        gap: 32px;
+      
+    }
+    .container-top img {
+        width: 80%;
+    }
+    .container-footer-top .stores {
+        order: 3;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+   footer .container-footer-top .logo-nequi img {
+        width: 60%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
