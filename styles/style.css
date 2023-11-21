@@ -180,6 +180,8 @@ section .login-section-form{
 
 section .captcha{
     margin-top: 12px;
+    object-fit: cover;
+    height: 50% ;
 }
 .login-form .button-unavailable{
     cursor: pointer;
